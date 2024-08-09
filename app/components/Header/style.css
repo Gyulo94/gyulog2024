@@ -1,0 +1,23 @@
+#header-wrapper {
+  width: 100%;
+  background: #680750;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
