@@ -1,3 +1,8 @@
+import "./style.css";
 export default function Home() {
-  return <div>hello world</div>;
+  return (
+    <div id="main-wrapper">
+      <div className="main-container">hello world</div>
+    </div>
+  );
 }
