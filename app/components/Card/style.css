@@ -1,0 +1,56 @@
+#post-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#post-card-wrapper:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.post-card-container {
+  display: flex;
+  align-content: center;
+}
+
+.post-img-wrapper {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.post-contents-wrapper {
+  padding: 10px;
+}
+
+.post-contents-wrapper h2 {
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.post-contents-wrapper p {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.post-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.post-date {
+  color: rgba(255, 255, 255, 0.3);
+}
