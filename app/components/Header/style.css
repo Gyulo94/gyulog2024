@@ -1,23 +1,45 @@
 #header-wrapper {
   width: 100%;
-  background: #680750;
+  height: 50px;
+  background: rgba(15, 15, 15, 1);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .header-container {
-  width: 1440px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo-wrapper {
+.header-left-box {
   display: flex;
+  cursor: pointer;
+  gap: 20px;
 }
 
-.nav-wrapper {
+.header-right-box {
   display: flex;
   align-items: center;
+  gap: 20px;
+}
+
+.header-right-box li button {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.header-right-box li button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header-right-box li button.active {
+  color: rgba(255, 255, 255, 0.5);
 }

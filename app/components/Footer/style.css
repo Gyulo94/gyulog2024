@@ -1,0 +1,33 @@
+#footer-wrapper {
+  width: 100%;
+  height: 55px;
+  background: rgba(15, 15, 15, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-right-box {
+  display: flex;
+  align-items: center;
+}
